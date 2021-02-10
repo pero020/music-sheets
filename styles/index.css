@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+body {
+  background-color: #fdffbc;
+  margin: 0 10% 0 10%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+.main-section {
+  background-color: #ffeebb;
+  box-shadow: 0 0 5px 10px #ffeebb;
+  padding-bottom: 10%
+}
+
+.footer-section {
+  background-color: #ffdcb8;
+  box-shadow: 0 0 5px 10px #ffdcb8;
+}
+
+
+h1 {
+  padding: 5% 5% 5% 5%;
+  font-size: 4rem;
+  z-index: 1;
+}
+
+h2 {
+  text-align: left;
+  padding: 5% 5% 5% 5%;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome-div {
+  height: 25rem;
+}
+
+.hello-h1 {
+  text-align: left;
+  position: relative;
+  top: 25%;
+}
+
+/* .ukulele-img {
+  max-width: 100%;
+  position: absolute;
+  right: 15%; 
+  top: 50px;
+  z-index: 0;
+  opacity: 80%;
+  overflow: hidden;
+} */
+
+.songs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-item {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  display: block;
+  font-size: 2rem;
+}
+
+.song-type {
+  display: inline;
+  float: right;
+}
+
+.thank-you-h2 {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.social-img-div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.youtube-img {
+  width: 15rem;
+  margin: 5%;
+}
+
+.arrow-img {
+  width: 15rem;
+  margin: 2% 5% 2% 5%;
+  transform: rotate(180deg);
+}
