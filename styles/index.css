@@ -40,6 +40,9 @@ a {
 
 .welcome-div {
   height: 25rem;
+  display: flex;
+  flex-direction: row;
+  justify-items: space-evenly;
 }
 
 .hello-h1 {
@@ -48,15 +51,9 @@ a {
   top: 25%;
 }
 
-/* .ukulele-img {
-  max-width: 100%;
-  position: absolute;
-  right: 15%; 
-  top: 50px;
-  z-index: 0;
-  opacity: 80%;
-  overflow: hidden;
-} */
+.ukulele-img {
+  display: none;
+}
 
 .songs-list {
   display: flex;
@@ -100,3 +97,10 @@ a {
   transform: rotate(180deg);
   flex-shrink: 1;
 } */
+
+@media only screen and (orientation: landscape) {
+  .ukulele-img {
+    display: inline;
+    width: 25rem;
+  }
+}
