@@ -102,5 +102,6 @@ a {
   .ukulele-img {
     display: inline;
     width: 25rem;
+    margin-top: 5%;
   }
 }
