@@ -90,11 +90,13 @@ a {
 
 .youtube-img {
   width: 15rem;
-  margin: 5%;
+  margin: 2% 5% 2% 5%;
+  flex-shrink: 1;
 }
-
+/* 
 .arrow-img {
   width: 15rem;
   margin: 2% 5% 2% 5%;
   transform: rotate(180deg);
-}
+  flex-shrink: 1;
+} */
