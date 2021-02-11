@@ -57,6 +57,7 @@ hr {
   text-align: left;
   position: relative;
   top: 25%;
+  right: 5%;
 }
 
 .ukulele-img {
@@ -109,7 +110,7 @@ hr {
 @media only screen and (orientation: landscape) {
   .ukulele-img {
     display: inline;
-    width: 25rem;
+    width: min(25rem, 50%);
     margin-top: 5%;
   }
 }
