@@ -4,38 +4,46 @@
 } 
 
 body {
-  background-color: #fdffbc;
+  background-color: #d6e6f2;
   margin: 0 10% 0 10%;
   min-height: 100%;
+  max-width: 100%;
   overflow-x: hidden;
 }
 
 .main-section {
-  background-color: #ffeebb;
-  box-shadow: 0 0 5px 10px #ffeebb;
+  background-color: #f7fbfc;
+  box-shadow: 0 0 5px 10px #f7fbfc;
   padding-bottom: 10%
 }
 
 .footer-section {
-  background-color: #ffdcb8;
-  box-shadow: 0 0 5px 10px #ffdcb8;
+  background-color: #b9d7ea;
+  box-shadow: 0 0 5px 10px #b9d7ea;
 }
-
 
 h1 {
   padding: 5% 5% 5% 5%;
-  font-size: 4rem;
+  font-size: 5rem;
   z-index: 1;
 }
 
 h2 {
   text-align: left;
   padding: 5% 5% 5% 5%;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 a {
   text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #d6e6f2;
+  border-width: 8px;
+  width: 48px;
+  align-self: center;
 }
 
 .welcome-div {
@@ -58,14 +66,16 @@ a {
 .songs-list {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .song-item {
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  justify-content: space-between;
+  margin: 4%;
   display: block;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .song-type {
@@ -75,18 +85,16 @@ a {
 
 .thank-you-h2 {
   text-align: center;
-  padding-top: 2%;
+  padding: 1%;
 }
 
 .social-img-div {
   display: flex;
-  align-items: center;
-  flex-direction: row;
   justify-content: center;
 }
 
 .youtube-img {
-  width: 15rem;
+  width: 10rem;
   margin: 2% 5% 2% 5%;
   flex-shrink: 1;
 }
